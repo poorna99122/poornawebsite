@@ -1,7 +1,4 @@
 
-body {
-  overflow-x: hidden;
-  }
 
 
 
@@ -21,11 +18,14 @@ body {
     .header {
       overflow: hidden;
       width: 100%;
+      background-color: #a140e2;
+
     }
     .sub-content {
       flex: 1;
-      overflow: auto;
-      background-color: #f1edf8;
+      overflow: auto;    
+      background-color: #e1d2e5;
+
 
       .subContentWrapper {
         // padding: 10px;
@@ -58,11 +58,15 @@ body {
       height: 70px;
       overflow: hidden !important;
       width: 100%;
+      background-color: #a140e2;
+
     }
     .sub-content {
       flex: 1;
       overflow: auto;
-      background-color: #cbb2f7;
+      background-color: #e1d2e5;
+
+
       .subContentWrapper {
         // padding: 10px;
       }
@@ -84,11 +88,14 @@ body {
       height: 70px;
       overflow: hidden !important;
       width: 100%;
+      background-color: #a140e2;
     }
     .sub-content {
       flex: 1;
       overflow: auto;
-      background-color: #cbb2f7;
+      background-color: #e1d2e5;
+
+
       .subContentWrapper {
         // padding: 10px;
       }

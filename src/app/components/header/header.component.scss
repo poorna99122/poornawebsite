@@ -6,6 +6,9 @@
     .image{
         width: 51px;
     }
+    .nav-link{
+        color: black;
+    }
 }
   
 /* Media Query for low resolution  Tablets, Ipads */
@@ -28,8 +31,12 @@
     .nav-item{
         margin-right: 85px;
         font-size: x-large;
-        font-weight: 500;
+        font-weight: 400;
         cursor: pointer;
+    }
+    .nav-link{
+        color: black;
+
     }
 }
   
@@ -44,8 +51,12 @@
     .nav-item{
         margin-right: 85px;
         font-size: x-large;
-        font-weight: 500;
+        font-weight: 400;
         cursor: pointer;
+    }
+
+    .nav-link{
+        color: black;
     }
 
 }
