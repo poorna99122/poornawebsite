@@ -1,0 +1,51 @@
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .image{
+        width: 51px;
+    }
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+   
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+ 
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    .image {
+        width: 60px;
+        height: 60px;
+      }
+
+    .nav-item{
+        margin-right: 85px;
+        font-size: x-large;
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+   
+    .image {
+        width: 60px;
+        height: 60px;
+      }
+
+    .nav-item{
+        margin-right: 85px;
+        font-size: x-large;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+}

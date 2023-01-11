@@ -1,0 +1,97 @@
+
+body {
+  overflow-x: hidden;
+  }
+
+
+
+  
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main {
+    .header {
+      overflow: hidden;
+      width: 100%;
+    }
+    .sub-content {
+      flex: 1;
+      overflow: auto;
+      background-color: #f1edf8;
+
+      .subContentWrapper {
+        // padding: 10px;
+      }
+    }
+  }
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+   
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+ 
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  .main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main {
+    .header {
+      height: 70px;
+      overflow: hidden !important;
+      width: 100%;
+    }
+    .sub-content {
+      flex: 1;
+      overflow: auto;
+      background-color: #cbb2f7;
+      .subContentWrapper {
+        // padding: 10px;
+      }
+    }
+  }
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  .main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main {
+    .header {
+      height: 70px;
+      overflow: hidden !important;
+      width: 100%;
+    }
+    .sub-content {
+      flex: 1;
+      overflow: auto;
+      background-color: #cbb2f7;
+      .subContentWrapper {
+        // padding: 10px;
+      }
+    }
+  }
+}
