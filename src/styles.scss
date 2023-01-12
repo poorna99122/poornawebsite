@@ -1,8 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
-
-body {
-    overflow-x: hidden;
-    width: 100vw;
-    height: 100vh;
-    // background-color: #cbb2f7;
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    html {
+        body{
+            overflow-x: hidden;
+            // width: 100vw;
+            // height: 100vh;
+            // background-color: #cbb4f3;
+        }
     }
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+ 
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+ 
+}
+
+
+
+ 

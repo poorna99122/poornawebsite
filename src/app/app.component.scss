@@ -1,7 +1,6 @@
 
 
 
-
   
 
 
@@ -25,7 +24,7 @@
     .sub-content {
       flex: 1;
       overflow: auto;    
-      background-color: #e1d2e5;
+      // background-color: #e1d2e5;
 
 
       .subContentWrapper {
@@ -47,6 +46,13 @@
   
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px){
+
+
+  
+
+
+
+
   .main {
     width: 100%;
     height: 100%;
@@ -67,7 +73,7 @@
     .sub-content {
       flex: 1;
       overflow: auto;
-      background-color: #e1d2e5;
+      // background-color: #e1d2e5;
 
 
       .subContentWrapper {
@@ -79,6 +85,15 @@
   
 /* Media Query for Large screens */
 @media (min-width: 1281px) {
+
+  
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #6521d9 !important;
+  }
+
   .main {
     width: 100%;
     height: 100%;
@@ -98,7 +113,7 @@
     .sub-content {
       flex: 1;
       overflow: auto;
-      background-color: #e1d2e5;
+      // background-color: #e1d2e5;
 
 
       .subContentWrapper {
