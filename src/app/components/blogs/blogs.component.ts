@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import gsap from 'gsap';
+
 
 @Component({
   selector: 'app-blogs',
@@ -34,9 +36,15 @@ export class BlogsComponent implements OnInit{
     {
       id:7,
       text:"Seven"
+    },
+    {
+      id:8,
+      text:"Eight"
     }
   ];
   ngOnInit(): void {
+    gsap.to('.card-sub', { duration: 2, ease: "bounce.out", y: 100 });
+
   }
 
 }
