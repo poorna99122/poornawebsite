@@ -8,6 +8,7 @@ import gsap from 'gsap';
   styleUrls: ['./blogs.component.scss']
 })
 export class BlogsComponent implements OnInit{
+  
   tempArr : any = [
     {
       id:1,
@@ -43,8 +44,8 @@ export class BlogsComponent implements OnInit{
     }
   ];
   ngOnInit(): void {
-    gsap.to('.card-sub', { duration: 2, ease: "bounce.out", y: 100 });
-
+    gsap.from('.card-main', { duration: 2, ease: "expo.out", y: -100 });
+    gsap.from('.card-title', { duration: 2, ease: "expo.out", y: 100 });
   }
 
 }
