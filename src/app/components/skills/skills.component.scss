@@ -31,8 +31,16 @@
                 border-radius: 10px;
                 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
                 display: flex;
+                flex-direction: column;
                 align-items: center;
                 justify-content: center;
+                h4 {
+                    font-size: 28px;
+                    font-weight: 600;
+                    font-family: monospace;
+                    color: #4d5452;
+                   
+                }
                 img {
                     width: 90%; 
                     height: 90%;
@@ -50,6 +58,22 @@
                     height: 124px;
                 }
                 .css{
+                    width: 146px;
+                    height: 124px;
+                }
+                .bootstrap{
+                    width: 146px;
+                    height: 124px;
+                }
+                .angularmaterial{
+                    width: 146px;
+                    height: 124px;
+                }
+                .java{
+                    width: 146px;
+                    height: 124px;
+                }
+                .git{
                     width: 146px;
                     height: 124px;
                 }
@@ -87,13 +111,21 @@
             flex-wrap: wrap;
             .skill-card{
                 width: 176px;
-                height: 150px;
+                height: 180px;
                 margin: 10px;
                 border-radius: 10px;
                 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
                 display: flex;
+                flex-direction: column;
                 align-items: center;
                 justify-content: center;
+                h4 {
+                    font-size: 16px;
+                    font-weight: 600;
+                    font-family: monospace;
+                    color: #4d5452;
+                  
+                }
                 img {
                     width: 90%; 
                     height: 90%;
@@ -111,6 +143,22 @@
                     height: 124px;
                 }
                 .css{
+                    width: 146px;
+                    height: 124px;
+                }
+                .bootstrap{
+                    width: 146px;
+                    height: 124px;
+                }
+                .angularmaterial{
+                    width: 146px;
+                    height: 124px;
+                }
+                .java{
+                    width: 146px;
+                    height: 124px;
+                }
+                .git{
                     width: 146px;
                     height: 124px;
                 }
@@ -136,13 +184,21 @@
         flex-wrap: wrap;
         .skill-card{
             width: 176px;
-            height: 150px;
+            height: 180px;
             margin: 10px;
             border-radius: 10px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
+            h4 {
+                font-size: 16px;
+                font-weight: 600;
+                font-family: monospace;
+                color: #4d5452;
+            
+            }
             img {
                 width: 90%; 
                 height: 90%;
@@ -160,6 +216,22 @@
                 height: 124px;
             }
             .css{
+                width: 146px;
+                height: 124px;
+            }
+            .bootstrap{
+                width: 146px;
+                height: 124px;
+            }
+            .angularmaterial{
+                width: 146px;
+                height: 124px;
+            }
+            .java{
+                width: 146px;
+                height: 124px;
+            }
+            .git{
                 width: 146px;
                 height: 124px;
             }
