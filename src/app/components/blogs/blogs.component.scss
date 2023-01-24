@@ -39,6 +39,10 @@
                 }
                 .content-wrapper{
                     margin: 10px;
+                    .card-content {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
                 }
             }
         }
@@ -93,6 +97,10 @@
                 }
                 .content-wrapper{
                     margin: 10px;
+                    .card-content {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
                 }
             }
         }
@@ -145,6 +153,10 @@
                 }
                 .content-wrapper{
                     margin: 10px;
+                    .card-content {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
                 }
             }
         }

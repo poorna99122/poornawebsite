@@ -1,23 +1,19 @@
 <div class="main">
 <div class="card-main">
-    <div class="card-sub" *ngFor="let i of tempArr">
+    <div class="card-sub" *ngFor="let i of cardData">
         <div class="card-image">
-          <!-- <img src="../../../assets/Office_DP.jpeg" alt="" /> -->
+          <img [src]="i.imagePath" alt="" />
         </div>
 
         <div class="content-wrapper">
         <div class="card-title">
-            <h1>Card Title</h1>
+            <h2>{{i.title}}</h2>
         </div>
         <div class="card-subtitle">
-            <h5>Card Sub Title</h5>
+            <h5>{{i.subTitle}}</h5>
         </div>
         <div class="card-content">
-            <p>Lorem ipsum dolor sit 
-                amet consectetur adipisicing elit. 
-                Aliquid fuga est iure iusto animi. Dolorum
-                 ipsam at, doloribus quod possimus dignissimos nam. 
-                 </p>
+            <p>{{i.content}}</p>
         </div>
     </div>
     </div>
